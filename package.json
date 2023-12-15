@@ -1,0 +1,47 @@
+{
+  "name": "werite-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/integrations": "7.15.0",
+    "@sentry/node": "7.15.0",
+    "aws-sdk": "^2.1265.0",
+    "axios": "^1.2.2",
+    "body-parser": "1.20.1",
+    "colors": "1.4.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "httpolyglot": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "lodash-express": "^0.2.0",
+    "mediasoup": "^3.12.8",
+    "mediasoup-client": "3.6.57",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.2.5",
+    "ngrok": "4.3.3",
+    "nodemailer": "^6.9.7",
+    "qs": "6.11.0",
+    "socket.io": "^4.5.3",
+    "swagger-ui-express": "4.5.0",
+    "uuid": "9.0.0",
+    "yamljs": "0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

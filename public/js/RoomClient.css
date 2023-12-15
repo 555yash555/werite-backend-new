@@ -1,0 +1,5 @@
+@keyframes flash {
+    0% {border-color: transparent;}
+    50% {border-color: currentColor;}
+    100% {border-color: transparent;}
+  }
